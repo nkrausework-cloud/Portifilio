@@ -4,34 +4,80 @@ Hi, I’m Nicolas Krause 👋
 I’m a data analyst skilled in **Excel, SQL, Python, Tableau, and Power BI**.  
 This portfolio showcases my projects, where I clean, analyze, and visualize data to generate insights that drive decisions.  
 
----
-
+-----------------------
 ## 🔹 Projects
+-----------------------
+🔹Project 1: Sales Performance Dashboard
 
-### 1. Excel Sales Dashboard
-📌 [Download Dashboard](LINK_TO_EXCEL) | 📖 [Project Summary](LINK_TO_PDF)  
-- Built an **interactive sales dashboard** analyzing revenue, profit, and customer segments.  
-- Tools: **Excel (Pivot Tables, Formulas, Charts, Dashboards)**.  
-- **Key Insight:** Identified top-performing regions and products that drove 60% of revenue.  
+**Goal:** Build an interactive dashboard to help business leaders track revenue, top products, and regional sales.
 
----
+### 🔧 Tools
+- SQL (data cleaning & aggregation)
+- Tableau or Power BI (dashboard)
+- Excel (initial analysis)
 
-### 2. SQL Customer Insights
-📌 [View SQL Queries](LINK_TO_REPO) | 📖 [Case Study Report](LINK_TO_DOC)  
-- Analyzed a retail database to answer **business-critical questions**.  
-- Tools: **PostgreSQL/MySQL** (Joins, Aggregations, Window Functions).  
-- **Sample Questions Answered:**  
-  - Who are the top 5 customers by lifetime value?  
-  - Which products and regions generate the most sales?  
-- **Key Insight:** Top 10% of customers generated 45% of total sales.  
+### 📊 Process
+1. Extracted sales transaction data.
+2. Cleaned missing values and standardized categories.
+3. Aggregated revenue by region, category, and time period.
+4. Built an interactive Tableau/Power BI dashboard.
 
----
+### 🚀 Insights
+- Identified top 3 product categories driving 60% of revenue.
+- Found underperforming regions that missed sales targets.
 
-### 3. Netflix Content Analysis (Python + Tableau)
-📌 [View Notebook](LINK_TO_NOTEBOOK) | 📊 [Interactive Dashboard](LINK_TO_TABLEAU)  
-- Performed **exploratory data analysis** on Netflix’s movie & TV catalog.  
-- Tools: **Python (Pandas, Matplotlib, Seaborn) + Tableau**.  
-- **Key Insight:** Netflix expanded rapidly after 2015, with strong international growth in non-U.S. markets.  
+### 📂 Outputs
+- [Tableau Public Link](#) (or Power BI screenshot)
+- `notebooks/sales_analysis.ipynb`
+- `docs/dashboard_screenshot.png`
+
+-----------------------
+🔹Project 2: Customer Segmentation
+
+**Goal:** Segment customers to tailor marketing campaigns and improve retention.
+
+### 🔧 Tools
+- Python (pandas, scikit-learn, matplotlib)
+- Jupyter Notebook
+
+### 📊 Process
+1. Collected and cleaned customer purchase history.
+2. Engineered features (frequency, recency, monetary value).
+3. Applied PCA for dimensionality reduction.
+4. Clustered customers using K-means.
+
+### 🚀 Insights
+- Found 4 distinct customer segments (e.g., "high spend loyalists", "one-time buyers").
+- Insights used for targeted campaigns that boosted pilot conversions.
+
+### 📂 Outputs
+- `notebooks/segmentation.ipynb`
+- `docs/clusters_visualization.png`
+
+
+------------------------
+🔹Project 3: Churn Prediction Model
+
+**Goal:** Predict which customers are likely to churn so retention strategies can be targeted.
+
+### 🔧 Tools
+- Python (pandas, scikit-learn)
+- SQL (data extraction)
+
+### 📊 Process
+1. Balanced the dataset (SMOTE for class imbalance).
+2. Trained Logistic Regression and Random Forest.
+3. Evaluated with ROC-AUC, precision/recall, confusion matrix.
+4. Exported model for scoring new data.
+
+### 🚀 Insights
+- Top churn predictors: usage decline, recent support tickets, payment failures.
+- Model achieved 82% ROC-AUC.
+
+### 📂 Outputs
+- `notebooks/churn_model.ipynb`
+- `docs/roc_curve.png`
+
 
 ---
 
